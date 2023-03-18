@@ -42,7 +42,7 @@
  &kp INSERT      &kp N1     &kp N2      &kp N3  &kp N4  &kp N5               &mo 2                                                                                  &mo 2  &kp N6    &kp N7     &kp N8  &kp N9  &kp N0  &kp PRINTSCREEN
       &none     &kp ESC  &kp COMMA  &kp PERIOD   &kp P   &kp Y               &none                                                                                  &none   &kp F     &kp G      &kp C   &kp R   &kp L            &none
       &mo 1       &kp A      &kp O       &kp E   &kp U   &kp I               &none  &kp LCTRL           &kp LALT   &none   &none           &kp LALT  &kp RCTRL      &none   &kp D     &kp H      &kp T   &kp N   &kp S            &mo 1
-  &kp LSHFT  &kp DELETE      &kp Q       &kp J   &kp K   &kp X               &none      &none  &macro_lctrl_lalt   &none   &none  &macro_lctrl_lalt      &none      &none   &kp B     &kp M      &kp W   &kp V   &kp Z        &kp RSHFT
+  &kp LSHFT  &kp DELETE      &kp Q       &kp J   &kp K   &kp X               &none      &none      &kp LA(LCTRL)   &none   &none     &kp LA(LCTRL)       &none      &none   &kp B     &kp M      &kp W   &kp V   &kp Z        &kp RSHFT
       &none       &none      &none    &kp DOWN  &kp UP                    &kp BSPC    &kp TAB      &kp LEFT_META                     &kp RIGHT_META  &kp ENTER  &kp SPACE          &kp LEFT  &kp RIGHT   &none   &none            &none
             >;
         };
@@ -52,7 +52,7 @@
    &kp F11         &kp F1          &kp F2            &kp F3             &kp F4        &kp F5              &trans                                                                                 &trans           &kp F6                &kp F7                 &kp F8            &kp F9        &kp F10    &kp F12
      &none    &kp AT_SIGN  &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp CARET              &trans                                                                                 &trans  &kp EXCLAMATION         &kp LESS_THAN       &kp GREATER_THAN         &kp EQUAL  &kp AMPERSAND      &none
     &trans  &kp BACKSPACE       &kp SLASH    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp ASTERISK              &trans  &kp LCTRL           &kp LALT   &none   &none           &kp LALT  &kp RCTRL     &trans     &kp QUESTION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &kp MINUS      &kp COLON     &trans
- &kp LSHFT       &kp HASH      &kp DOLLAR          &kp PIPE          &kp TILDE     &kp GRAVE               &none      &none  &macro_lctrl_lalt   &none   &none  &macro_lctrl_lalt      &none      &none         &kp PLUS           &kp PERCENT      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp RSHFT
+ &kp LSHFT       &kp HASH      &kp DOLLAR          &kp PIPE          &kp TILDE     &kp GRAVE               &none      &none      &kp LA(LCTRL)   &none   &none     &kp LA(LCTRL)       &none      &none         &kp PLUS           &kp PERCENT      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp RSHFT
     &trans          &none           &none     &kp PAGE_DOWN        &kp PAGE_UP                          &kp BSPC    &kp TAB      &kp LEFT_META                     &kp RIGHT_META  &kp ENTER  &kp SPACE                               &kp HOME                &kp END             &none          &none     &trans
             >;
         };
