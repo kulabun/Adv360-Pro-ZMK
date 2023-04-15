@@ -39,10 +39,10 @@
 
         default_layer {
             bindings = <
- &kp INSERT      &kp N1     &kp N2      &kp N3  &kp N4  &kp N5               &mo 2                                                                                  &mo 2  &kp N6    &kp N7     &kp N8  &kp N9  &kp N0  &kp PRINTSCREEN
+ &kp DELETE      &kp N1     &kp N2      &kp N3  &kp N4  &kp N5               &mo 2                                                                                  &mo 2  &kp N6    &kp N7     &kp N8  &kp N9  &kp N0  &kp PRINTSCREEN
       &none     &kp ESC  &kp COMMA  &kp PERIOD   &kp P   &kp Y               &none                                                                                  &none   &kp F     &kp G      &kp C   &kp R   &kp L            &none
       &mo 1       &kp A      &kp O       &kp E   &kp U   &kp I               &none  &kp LCTRL           &kp LALT   &none   &none           &kp LALT  &kp RCTRL      &none   &kp D     &kp H      &kp T   &kp N   &kp S            &mo 1
-  &kp LSHFT  &kp DELETE      &kp Q       &kp J   &kp K   &kp X               &none      &none      &kp LA(LCTRL)   &none   &none     &kp LA(LCTRL)       &none      &none   &kp B     &kp M      &kp W   &kp V   &kp Z        &kp RSHFT
+  &kp LSHFT  &kp INSERT      &kp Q       &kp J   &kp K   &kp X               &none      &none      &kp LA(LCTRL)   &none   &none     &kp LA(LCTRL)       &none      &none   &kp B     &kp M      &kp W   &kp V   &kp Z        &kp RSHFT
       &none       &none      &none    &kp DOWN  &kp UP                    &kp BSPC    &kp TAB      &kp LEFT_META                     &kp RIGHT_META  &kp ENTER  &kp SPACE          &kp LEFT  &kp RIGHT   &none   &none            &none
             >;
         };
